@@ -1,4 +1,5 @@
 {
     "dev2": "create",
-    "dev2_1": "rebase"
+    "dev2_1": "rebase",
+    "dev2_2": "merge rebase"
 }
