@@ -2,5 +2,6 @@
     "dev2": "create",
     "dev2_1": "rebase",
     "dev2_2": "merge rebase",
-    "dev2_3": "rebase 1"
+    "dev2_3": "rebase 1",
+    "dev2_4": "rebase 2"
 }
