@@ -98,6 +98,7 @@
 
 ![flow 디폴트 브랜치 생성](./image/flow-create.png)
 
+OK 클릭
 
 <br />
 
@@ -119,3 +120,18 @@
 - 커밋 되돌리기로도 사용하지만 브랜치 정리를 위해 사용하기도 한다.
 - Reset은 총 3가지의 옵션을 갖는다. ( Hard, Mixed, Soft ).
 
+reset --hard /
+- 
+- 모든 이력을 지우면서 리셋한다. (tree, directory, staging area 포함)
+- 리셋된 모든 이력을 지우기 때문에 복구하기 힘들다. ( reflog로 복구 가능 )
+
+reset --mixed / 
+- 
+- 커밋하기 직전으로 이동된다.
+- 리셋된 커밋들이 unstaged 영역으로 이동된다.
+
+
+reset --soft / 
+- 
+- Head만 옮겨진다. 브랜치가 가리키는 커밋을 변경한다.
+- 리셋된 커밋들이 staged 영역으로 이동된다.
